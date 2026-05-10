@@ -57,7 +57,7 @@
 // 8. tricky coercion
 
 // console.log([] == false);  // true
-// console.log([] === false); // false type pani check hunxa
+// console.log([] === false); // 
 
 // 8 . tell the output
 
@@ -77,6 +77,16 @@
 
 
 // 10 > Final Boss
-let a =1;
-let b = a++ + ++a + a; // ans is 7
-console.log(b);
+// let a =1;
+// let b = a++ + ++a + a; // ans is 7
+// console.log(b);
+
+
+// a += 2 // a= a+2 
+
+//   a/=2 --> a = a/2
+
+// a* = 2 --> a = a * 2
+// let y = 45
+//  console.log(45/4)
+ 
