@@ -26,4 +26,4 @@ function clamp(x , min , max){
 let checkAns = clamp(22, 0 , 20)
 console.log(checkAns)
 
-const clamp = (x, min, max) => Math.min(Math.max(x, min), max);x
+const clamp = (x, min, max) => Math.min(Math.max(x, min), max);
