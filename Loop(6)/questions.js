@@ -30,16 +30,25 @@ const n = +prompt("Enter the natural  number")
  
 // 3. prints the sum of first n number of natural numbers
 
-let total = 0;
+// let total = 0;
 
-for (let i = 1 ; i<= n; i++){
+// for (let i = 1 ; i<= n; i++){
 
-   total = total + i
+//    total = total + i
 
 
 
+// }
+
+// console.log(total)
+
+// 4. Printing the factorial of all the positive numbers and if the ans is 0 return 1
+
+let factorial = 1
+
+for (let i = 1 ; i<=n ; i++){
+  factorial = factorial * i
 }
 
-console.log(total)
-
+console.log(factorial)
 
