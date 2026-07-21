@@ -42,13 +42,51 @@ const n = +prompt("Enter the natural  number")
 
 // console.log(total)
 
+
+
 // 4. Printing the factorial of all the positive numbers and if the ans is 0 return 1
 
-let factorial = 1
+// let factorial = 1
 
-for (let i = 1 ; i<=n ; i++){
-  factorial = factorial * i
-}
+// for (let i = 1 ; i<=n ; i++){
+//   factorial = factorial * i
+// }
 
-console.log(factorial)
+// console.log(factorial)
+
+
+
+
+// ###### 5. print the sum of all the odd and even number seperately in a range 
+
+// let a = +prompt("Enter the start number")
+// let b = +prompt("Enter the end number")
+
+// if(a>b){
+
+//   let temp = a
+//   a = b;
+//   b = temp;
+
+// }
+
+// let eSum = 0
+// let oSum = 0
+
+// for (let i = a; i<=b ; i++){
+
+//   if(i%2 ==0){
+//       eSum = eSum + i
+//   }else{
+
+//       oSum = oSum + i
+//   }
+
+
+// }
+
+
+// console.log("even addition si ", eSum)
+// console.log("odd addition si ", oSum)
+
 
