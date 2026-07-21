@@ -90,3 +90,87 @@ const n = +prompt("Enter the natural  number")
 // console.log("odd addition si ", oSum)
 
 
+// ## 6. print all the factors of a number 
+
+
+// for (let i = 1; i<=n ; i++){
+
+//   if(n%i == 0){
+//     process.stdout.write(i + " ")
+//   }
+
+// }
+
+
+// efficient way = n/2 ( why n / 2 )
+
+// for (let i = 1; i<=n/2 ; i++){
+
+//   if(n%i == 0){
+//     process.stdout.write(i + " ")
+//   }
+// }
+
+
+// ### 7. print all the prime numbers in a range
+
+let divCounter = 0
+
+// for ( let i =1 ; i <=n ; i++){
+// if(n%i == 0){
+//   divCounter++
+// }
+
+// }
+
+// if (divCounter == 2){
+//   console.log( n + " prime number")
+// }else{
+//   console.log(n + "not a prime number")
+// }
+
+
+//efficient way 
+
+// for (let i = 2 ; i<=n/2 ; i++){
+//   if(n%i ==0){
+//      divCounter++
+//   }
+// }
+
+// if(divCounter == 0){
+//   console.log(n + "number is prime")
+// }else{ 
+//   console.log( n + "number is not prime")
+// }
+
+
+//#### more efficient way
+
+
+if(n<=1){
+  console.log( n + " number is not prime")
+}
+else if(n ==2 ){
+  console.log("number 2 is prime")
+}
+else if (n%2 ==0){
+  console.log( n + "number is not prime")
+}else { 
+  let sqrt = Math.floor(Math.sqrt(n))
+  for (let i = 3 ; i<=sqrt ; i+=2){
+
+      if(n%i ==0){
+        console.log( n + "number is not prime")
+        break
+      }
+      else{
+        console.log( n + "number is prime")
+        break
+      }
+
+  }
+}
+
+
+
